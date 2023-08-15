@@ -124,6 +124,36 @@ Exemplo:
 Local nNumero := 599 // Se não colocarmos o delimitador "Local", o ADVPL automáticamente entenderá como Private.
 
 1. Local
+- É visivel em qualquer lugar do código fonte onde foi declarada.
+- Exemplo:
+User Function VLocal()
+Local nNumero := 20
+Return
+
 2. Static
+- Se são declaradas dentro de uma função ou procedimento, seu escopo é limitado a aquela rotina.
+- Exemplo: 
+User Function Vstatic()
+Static nNumero := 90
+Return
+
+- Pode ser declarada tanto fora, quanto dentro da função. 
+
 3. Private
+- É visível em todo o programa enquanto não for destruída. A declaração é opcional.
+- São destruídas assim que o programa terminar de executar, ou quando é chamado uma variável com o mesmo valor.
+- Exemplo:c 
+User Function Vprivate()
+Private nNum := 32
+Return
+
 4. Public
+- São visíveis em toda a aplicação. 
+- Exemplo:
+User Function Vpublic()
+Public nNum := 12
+Return
+
+
+
+
