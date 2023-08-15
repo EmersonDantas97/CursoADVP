@@ -1,0 +1,129 @@
+>> Seção 01 >> Aula 01
+
+INTRODUÇÃO
+
+- Curso prático de programação.
+- Abordagem sobre a linguagem ADVPL.
+
+- TDS (TOTVS Developer Studio).
+- Lógica de programação.
+- Vetores e blocos de códigos.
+- Manipulação dos dados no banco de dados. 
+
+- Pontos de entrada.
+- Debug.
+
+**********************
+
+>> Seção 01 >> Aula 02
+
+LINGUAGEM ADVPL
+
+- Aula teórica.
+- Basea-se em linguagens como: Clipper, Visual Objects e FiveWins.
+- Orientado a objetos e a eventos. 
+
+- Após compilado, torna-se parte do APO. 
+- A compilação é o processo onde é substituido os comandos de alto nível, por instruções de baixo nível.
+- É o AppServer que faz esta interpretação. 
+
+Erros de compilação
+- São erros encontrados na sintaxe linguagem.
+
+Erros de execução
+- Ocorrem depois que o programa já foi compilado. 
+- São exemplos: Variáveis não declaradas, funções inexistentes e etc. 
+
+- Todos os códigos são desenvolvidos em ADVPL. 
+
+**********************
+
+>> Seção 01 >> Aula 03
+
+LINHAS DE UM PROGRAMA ADVPL
+
+- Comandos.
+- Comentários. Existem 2 tipos: // que é o comentário de uma linha OU /**/ que é o comentário de várias linhas.
+- Linhas mistas (linhas que possuem comando e comentários).
+
+- O ";" (ponto e vírgula) é utilizado para quebrar a linha continunando o comando.
+
+- Não é Case-Sensitive.
+
+**********************
+
+>> Seção 02 >> Aula 01
+
+Introdução à IDE TDS (TOTVS Developer Studio).
+
+Versão estável e do curso é a 11.3. 
+
+**********************
+
+>> Seção 03 >> Aula 01
+
+Introdução os VSCode.
+
+Apresentação.
+
+**********************
+
+>> Seção 03 >> Aula 02
+
+Instalação do VSCode. 
+
+'**********************
+
+>> Seção 03 >> Aula 03
+
+Instalação da extensão do TOTVS Developer Studio. 
+
+***********************
+
+https://centraldeatendimento.totvs.com/hc/pt-br/articles/360054191294-Automa%C3%A7%C3%A3o-Fiscal-Configura%C3%A7%C3%A3o-Configurando-e-aplicando-pacotes-pelo-VSCODE
+
+
+'**********************
+
+>> Seção 04 >> Aula 02
+
+Tipos de funções que podem ser utilizadas em ADVPL:
+
+1. Function()
+- Pode carregar até 10 caracteres em seu nome.
+- Caso tenha mais que 10 caracteres ele desconsidera. 
+- Precisa de autorização especial da TOTVS para crialas e executa-las, pois quem faz isso é a própria TOTVS. 
+
+2. User Function() "Funções definidas pelo usuário"
+- São as funções adicionadas pelo usuário. Normalmente tem por obrigação o prefixo "U_".
+- Deve ter no máximo 8 caracteres o nome. 
+
+- Todos os códigos que serão criados durante o curso serão User Function().
+
+3. Static Function()
+- São funções cuja a visibilidade está restrita às funções descritas no mesmo arquivo de código fonte no qual são definidas. 
+
+- Exemplo abaixo:
+Function MTA001C()
+CriaSX1("MATA001C")
+Return
+Static Function CriaSX1()
+Return
+
+4. Main Function()
+- Main Function SIGAADV()
+- Precisa também de acesso especifico da TOTVS para utiliza-las/altera-las.
+
+'**********************
+
+>> Seção 04 >> Aula 04
+
+DEFINIÇÃO DE ESCOPO DE VARIÁVEL
+
+Exemplo: 
+Local nNumero := 599 // Se não colocarmos o delimitador "Local", o ADVPL automáticamente entenderá como Private.
+
+1. Local
+2. Static
+3. Private
+4. Public
