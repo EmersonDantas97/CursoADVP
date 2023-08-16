@@ -18,7 +18,11 @@
 		},
 		{
 			"label": "U_Estruturas"
+		},
+		{
+			"label": "U_DoCase"
 		}
 	],
-	"lastProgramExecuted": "U_Estruturas"
+	"lastProgramExecuted": "<cancel>",
+	"lastProgramArguments": []
 }
