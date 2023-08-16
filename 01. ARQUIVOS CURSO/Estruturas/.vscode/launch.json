@@ -21,8 +21,13 @@
 		},
 		{
 			"label": "U_DoCase"
+		},
+		{
+			"label": "U_Estruturas_For"
+		},
+		{
+			"label": "U_ForExemplo"
 		}
 	],
-	"lastProgramExecuted": "<cancel>",
-	"lastProgramArguments": []
+	"lastProgramExecuted": "U_ForExemplo"
 }
