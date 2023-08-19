@@ -39,7 +39,10 @@
 		},
 		{
 			"label": "U_UsoBloco"
+		},
+		{
+			"label": "U_Banco001"
 		}
 	],
-	"lastProgramExecuted": "U_UsoBloco"
+	"lastProgramExecuted": "U_Banco001"
 }

@@ -1,7 +1,7 @@
 #include "protheus.ch"
 #include "parmtype.ch"
 
-User Function JgAdivinha()
+User Function JgAdv()
 
     // VARIAVEL QUE SERA PREENCHIDA COM O CHUTE/PALPITE
     Local nPalpite := 0
