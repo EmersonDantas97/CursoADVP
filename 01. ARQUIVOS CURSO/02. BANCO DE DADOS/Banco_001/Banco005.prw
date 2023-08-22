@@ -14,7 +14,7 @@ User Function Banco005()
         {"B1_DESC",     "PRODUTO TESTE", Nil},      ;
         {"B1_TIPO",     "GG", Nil},                 ;
         {"B1_UM",       "PC", Nil},                 ;
-        {"B1_LOCPAD",   "01", Nil},                 ;
+        {"B1_LOCPAD",   "1", Nil},                  ;
         {"B1_PICM",     0, Nil},                    ;
         {"B1_IPI",      0, Nil},                    ;
         {"B1_CONTRAT",  "N", Nil},                  ;
@@ -40,5 +40,7 @@ User Function Banco005()
     End Transaction
 
     RestArea(aArea)
+
+    // CASO EU TENTE INSERIR OS MESMOS VALORES, SERÁ MOSTRADO O ERRO LOG. 
 
 Return
