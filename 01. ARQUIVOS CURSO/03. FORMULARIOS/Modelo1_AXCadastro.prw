@@ -14,7 +14,7 @@ Cadastramento envolvendo duas tabelas, um com dados de cabeçalho e outro digita
 #include 'Protheus.ch'
 #include 'parmtype.ch'
 
-User Function Modelo1()
+User Function Modelo1AXCadastro()
 
     Local cAlias := "SB1"
     Local cTitulo := "Cadastro - AXCadastro"
